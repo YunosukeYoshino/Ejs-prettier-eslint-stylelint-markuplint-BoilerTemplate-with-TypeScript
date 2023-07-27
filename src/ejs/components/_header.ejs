@@ -1,0 +1,11 @@
+<% var generateItem = function(name, dataList){ %>
+<ul class="<%= name %>">
+  <% dataList.forEach(function (dataItem, index) { %>
+  <li class="Header__item"><%= dataItem %></li>
+  <% }); %>
+</ul>
+<% }; %>
+
+<header class="Header">
+  <nav class="Header__Nav"><%- generateItem('Header__List', ['ホーム', '新着情報', '会社概要']); %></nav>
+</header>

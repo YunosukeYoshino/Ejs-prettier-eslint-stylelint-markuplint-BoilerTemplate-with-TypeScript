@@ -1,0 +1,15 @@
+<% var head = {head:'Top', body:'これはWebPack5のBodyTextです。'}; %>
+
+<!doctype html>
+<html lang="ja">
+  <%- include('./components/_head.ejs', {data:head}); %>
+  <body>
+    <%- include('./components/_header.ejs'); %>
+
+    <main class="MainContainer">
+      <h1>テスト</h1>
+      <p>テキスト</p>
+      <img src="./images/sample.jpg" alt="" />
+    </main>
+  </body>
+</html>
