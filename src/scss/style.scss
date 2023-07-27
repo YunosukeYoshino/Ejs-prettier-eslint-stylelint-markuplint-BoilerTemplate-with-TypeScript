@@ -1,30 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+
 :root {
   --primary-color: rgb(173, 221, 183);
   --main-color: #131313;
 }
-@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
 
 body {
   font-family: 'Kosugi Maru', sans-serif;
   color: var(--main-color);
 }
+
 img {
-  max-width: 100%;
   width: 100%;
+  max-width: 100%;
 }
 
 .Header {
-  background-color: var(--primary-color);
-  padding: 2rem;
   position: sticky;
   top: 0;
+  padding: 2rem;
+  background-color: var(--primary-color);
 }
 
 .Header__List {
   display: flex;
+  gap: 1.25rem;
   align-items: center;
   justify-content: center;
-  gap: 1.25rem;
 }
 
 .MainContainer {
