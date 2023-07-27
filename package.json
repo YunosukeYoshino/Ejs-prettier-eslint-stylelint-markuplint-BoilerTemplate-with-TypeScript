@@ -23,7 +23,6 @@
     "autoprefixer": "^10.4.14",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.8.1",
-    "destyle.css": "^4.0.0",
     "eslint": "^8.45.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.1.0",
@@ -56,5 +55,8 @@
     "> 3% in JP",
     "not IE 11",
     "last 1 versions"
-  ]
+  ],
+  "dependencies": {
+    "destyle.css": "^4.0.0"
+  }
 }
